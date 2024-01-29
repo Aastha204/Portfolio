@@ -8,9 +8,13 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
-    <script>
-        AOS.init();
-      </script>
+
+    <!-- AOS CSS from CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+    <!-- AOS JavaScript from CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
     <link rel="stylesheet" href="portfolio.css">
 </head>
 <body>
@@ -48,8 +52,13 @@
 
             <section class="about" id="about">
                 <div class="about-text" syle="color:black;">
+                    <div data-aos="fade-right">
                     <h2>About <span>Me</span></h2>
+                    </div>
+
+                    <div data-aos="fade-left">
                     <h4>College Student!</h4><br>
+
                     <p>
                         Hello there! 👋 I'm Aastha Garg, a passionate college student navigating the exciting world of academia and beyond. Currently pursuing [your degree and major] at [your college/university], I thrive on challenges and embrace the joy of continuous learning.
                         Beyond the textbooks, I find solace and excitement in the realm of coding. As a coding enthusiast, I enjoy translating ideas into lines of code and exploring the ever-evolving landscape of technology. From web development to coding challenges, I'm always up for a coding adventure
@@ -57,6 +66,7 @@
                         Looking forward, I aspire to [mention any specific goals or aspirations]. Whether it's making a positive impact through community projects, pursuing advanced studies, or delving deeper into the tech industry, I am excited about the possibilities that lie ahead.
                         Outside the academic sphere, you can find me exploring the latest in tech, sharing insights on my social media platforms, and connecting with like-minded individuals. Feel free to reach out—I'm always open to new opportunities, collaborations, and interesting conversations!
                     </p>
+                    </div>
                     <br>
                     <a href="#" class="btn-box">More about Me</a>
                 </div>
@@ -64,7 +74,11 @@
             <section>
             <div class="services" id="services">
                 <div class="container">
+
+                    <div data-aos="fade-left">
                     <h1 class="sub-title">My <span>Services</span></h1>
+                    </div>
+
                     <div class="services-list">
                         <div>
                             <i class='bx bx-code' style='color:darkcyan;'></i>
@@ -97,9 +111,15 @@
             <section>
                 <div class="skills" id="skill">
                     <div class="container_skill">
+                        
+                    <div data-aos="fade-up-right">
                     <h1 class="sub-title" style="color:rgb(1, 29, 29);margin-right: 42px;">My <span>Skills</span></h1>
+                    </div>
                     <div class="container1" id="Skills">
+
+                        <div data-aos="fade-left">
                         <h1 class="heading1" style="color:rgb(1, 29, 29);margin-right: 80px;">Technical Skills</h1>
+                        </div>
                         <div class="Technical-bars";style="margin-right: 0px;">
                            
                             <div class="bar"><i style="color:#147bbc;size:56px;background-color: aliceblue;" class='bx bxl-html5'></i>
@@ -154,7 +174,11 @@
                           </div>
                     </div> -->
                     <div class="container1">
+
+                        <div data-aos="fade-up-left">
                         <h1 class="heading1" style="color:rgb(1, 29, 29); margin-left: 50px;">Professional Skills</h1>
+                        </div>
+
                         <div class="containerskills">
                             <div class="conic-multicolor-effect1" style="--creativity: 94;">
                                 <div class="creativity-text">98% Creativity</div>
@@ -177,8 +201,10 @@
             <section>
                 <div class="myproject" id="portfolio" id="project">
                     <div class="main-text" id="project">
-                        <h2 class="sub-title" style="color:rgb(5, 54, 54)">Latest <span style="color:rgb(25, 92, 92)">Projects</span></h2><br><br><br>
 
+                        <div data-aos="fade-up-right">
+                        <h2 class="sub-title" style="color:rgb(5, 54, 54)">Latest <span style="color:rgb(25, 92, 92)">Projects</span></h2><br><br><br>
+                        </div>
                         <div class="portfolio-content">
                             <div class="row">
                                 <img src="face_project.jpg" height="350px" width="300px" style="padding:30px;">
@@ -232,8 +258,13 @@
 
             <section class="contact" id="contact">
                 <div class="contact-text">
+                    <div data-aos="fade-up-left">
                     <h2 style="color:rgb(18, 131, 18)">Contact <span style="color:rgb(2, 32, 2)">Me</span></h2>
+                    </div>
+
+                    <div data-aos="fade-left">
                     <h4>Let's Work Together</h4>
+                    </div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis natus rem voluptates optio, atque
                          unde esse. Tempora ducimus ipsam
                          magni fugit, voluptatem aspernatur, vel sunt ipsa eos tempore quidem veritatis!</p>
@@ -266,6 +297,9 @@
             </div>
             <a href="#" class="top"><i class='bx bx-up-arrow-alt'></i></a>
             <script src="main.js"></script>
+            <script>
+                AOS.init();
+            </script>
                 
 </body>
 </html>
