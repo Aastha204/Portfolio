@@ -258,14 +258,15 @@ body {
 
 .about-text h2{
     font-size:60px;
+    color:rgb(4, 48, 34);
 }
 .about-text h2 span{
-    color:rgb(75, 126, 25);
+    color:rgb(3, 92, 92);
 }
 .about-text h4{
     font-size:29px;
     font-weight:600;
-    color:rgb(17, 100, 100);
+    color:rgb(3, 46, 46);
     /* line-height:1.7; 
     margin:45px 39 39px;*/
 }
@@ -317,7 +318,9 @@ body {
 }
 .services-list{
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(259px,1fr));
+    /* grid-template-columns:repeat(auto-fit,minmax(259px,1fr)); */
+    grid-template-columns:repeat(auto-fit,minmax(273px,1fr));
+    /* width:30px; */
     grid-gap:40px;
     margin-top:0px;
     margin-bottom: 90px;
@@ -330,12 +333,12 @@ body {
     border-right:10px;
     border-radius:20px;
     transition:background 0.5s,transform 0.5s;
-    box-shadow: 1px 1px 20px rgb(50, 167, 95),
-    1px 1px 40px rgb(50, 167, 95)
+    box-shadow: 1px 1px 20px rgb(38, 122, 72),
+    1px 1px 40px rgb(38, 122, 72)
 }
 .services-list div i{
     font-size:50px;
-    margin-bottom:30px;
+    margin-bottom:2px;
 }
 .services-list div h2{
     font-size:30px;
@@ -353,19 +356,20 @@ body {
 .read{
     display:inline-block;
     padding:12px 28px;
-    background-color:aquamarine;
+    background-color:rgb(62, 187, 145);
     border-radius: 40px;
     font-size:16px;
-    color:#081b29;
+    color:black;
     letter-spacing:1px;
-    font-family:'Rockwell';
+    /* font-family:'Rockwell'; */
     text-decoration:none;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight:600;
     opacity:0;
     animation:slideTop 1s ease forwards;
     animation-delay:2s;
-    box-shadow:0 0 5px rgb(13, 61, 45),
-    0 0 25px rgb(13, 61, 45)
+    box-shadow:0 0 5px rgb(65, 194, 151),
+    0 0 25px rgb(65, 194, 151)
 }
 .read:hover{
     box-shadow:0 0 5px rgb(162, 250, 221),
