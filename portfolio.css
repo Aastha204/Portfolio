@@ -7,7 +7,7 @@
 
 body {
     color:#fff;
-    background-color: rgb(193, 225, 193);
+    /* background-color: rgb(193, 225, 193); */
     /* display:flex; */
 }
 
@@ -72,7 +72,8 @@ body {
 .home{
     position: relative;
     width:100%;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    justify-content:left;
     height:110vh;
     background: url(Home_page.png) no-repeat;
     background-position: cover;
@@ -1041,7 +1042,7 @@ section{
 
 /* Loading animation for HTML progress bar */
 
-.progress-value {
+.progress-value-html {
     animation: load-html 3s normal forwards;
     box-shadow: 0 10px 40px -10px rgb(12, 19, 2);
     border-radius: 100px;
@@ -1057,23 +1058,9 @@ section{
     }
 
     100% {
-        width: 68%;
+        width: 89%;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* Loading animation for HTML progress bar */
@@ -1093,7 +1080,7 @@ section{
     }
 
     100% {
-        width: 29%;
+        width: 87%;
     }
 }
 
@@ -1114,7 +1101,7 @@ section{
     }
 
     100% {
-        width: 99%;
+        width: 78%;
     }
 }
 
@@ -1135,7 +1122,7 @@ section{
     }
 
     100% {
-        width: 82%;
+        width: 100%;
     }
 }
 
@@ -1156,7 +1143,7 @@ section{
     }
 
     100% {
-        width: 90%;
+        width: 97%;
     }
 }
 
