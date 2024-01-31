@@ -318,8 +318,8 @@ body {
 }
 .services-list{
     display:grid;
-    /* grid-template-columns:repeat(auto-fit,minmax(259px,1fr)); */
-    grid-template-columns:repeat(auto-fit,minmax(273px,1fr));
+    grid-template-columns:repeat(auto-fit,minmax(259px,1fr));
+    /* grid-template-columns:repeat(auto-fit,minmax(273px,1fr)); */
     /* width:30px; */
     grid-gap:40px;
     margin-top:0px;
