@@ -307,7 +307,8 @@ body {
 .sub-title{
     text-align:center;
     font-size:55px;
-    padding-bottom:28px;
+    padding-bottom:13px;
+    padding-top: 34px;
     align-items: center;
 }
 .sub-title span{
