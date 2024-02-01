@@ -3,6 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'poppins', sans-serif;
+    scroll-behavior: smooth;
+    
 }
 
 body {
@@ -309,6 +311,7 @@ body {
     font-size:55px;
     padding-bottom:13px;
     padding-top: 34px;
+    padding:30px;
     align-items: center;
 }
 .sub-title span{
