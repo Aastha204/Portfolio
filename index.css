@@ -1,3 +1,4 @@
+@media only screen and (min-width: 900px){
 * {
     margin: 0;
     padding: 0;
@@ -31,6 +32,7 @@ body {
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+    background-color:rgb(10, 53, 10);
 }
 
 .logo {
@@ -39,10 +41,13 @@ body {
     color: #fff;
     text-decoration: none;
     font-weight: 600;
-    font-family: 'Pacifico';
+    /* font-family: 'Pacifico'; */
     cursor:default;
     opacity:0;
     animation:slideRight 1s ease forwards;
+    font-size: 34px;
+    font-family:'Monotype Corsiva'; 
+    color:rgb(166, 248, 166);
 }
 /* .image-container {
     position: relative;
@@ -411,9 +416,24 @@ body {
     margin-left: 0px;
     margin-top: -64px; /*Adjust this value to cover the gap */
 }
+
+.sub-title1{
+    text-align:center;
+    font-size:55px;
+    padding-bottom:13px;
+    padding-top: 34px;
+    padding:30px;
+    align-items: center;
+    margin-right: 42px;
+    color:rgb(2, 43, 43);
+}
+.sub-title1 span1{
+    color: rgb(19, 126, 126);
+}
 .Technical-bars {
     /* Adjusted margin-bottom to create space between Technical and Professional Skills */
     margin-bottom: 30px;
+    margin-right: 0px;
 }
 
 section{
@@ -436,6 +456,17 @@ section{
 }
 .heading1{
     text-align:center;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 5px;
+    margin-bottom: 50px;
+    color:rgb(119, 30, 50);
+    margin-right: 80px;
+}
+.heading2{
+    color:rgb(119, 30, 50);
+     margin-left: 50px;
+     text-align:center;
     text-decoration: underline;
     text-underline-offset: 10px;
     text-decoration-thickness: 5px;
@@ -751,6 +782,13 @@ section{
     /* padding-top: 140px; */
 }
 
+.sub-title2{
+    color:rgb(2, 36, 36);
+}
+.sub-title2 span2{
+    color:rgb(31, 95, 95);
+}
+
 .main-text{
     padding-top: 100px;
     /* margin-top:200px; */
@@ -826,6 +864,9 @@ section{
     justify-content: center;
     border-radius: 50%;
 }
+.row img{
+    padding:30px;
+}
 .row:hover img{
     transform:scale(1.1);
 }
@@ -852,7 +893,12 @@ section{
     padding-top: 40px;
     /* margin-top:200px; */
 }
-
+.subtitle4{
+    color:rgb(18, 131, 18);
+}
+.subtitle4 span4{
+    color:rgb(2, 32, 2);
+}
 .contact{
     display:grid;
     grid-template-columns:repeat(2,1fr);
@@ -1180,4 +1226,5 @@ section{
 .radial-stack .percentage{
     position: absolute;
     z-index: 99;
+}
 }
