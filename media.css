@@ -351,8 +351,28 @@
         /* padding: 75px 90px; */
         /* margin-left:120px; */
     }
+    .sub-title1{
+        text-align:center;
+        font-size:55px;
+        padding-bottom:13px;
+        padding-top: 34px;
+        padding:30px;
+        align-items: center;
+        margin-right: 42px;
+        color:rgb(247, 247, 247);
+    }
+    .sub-title1 span1{
+        color:#0ef;
+    }
     .heading1{
         text-align:center;
+        text-decoration: underline;
+        text-underline-offset: 10px;
+        text-decoration-thickness: 5px;
+        margin-bottom: 50px;
+    }
+    .heading2{
+         text-align:center;
         text-decoration: underline;
         text-underline-offset: 10px;
         text-decoration-thickness: 5px;
@@ -708,7 +728,7 @@
     .sub-title2{
         color:white;
     }
-    .sub-title2 span1{
+    .sub-title2 span2{
         color:cyan;
     }
     .main-text h2 span{
@@ -782,6 +802,9 @@
         justify-content: center;
         border-radius: 50%;
     }
+    .row img{
+        padding:30px;
+    }
     .row:hover img{
         transform:scale(1.1);
     }
@@ -800,6 +823,12 @@
         /* justify-content: space-around; */
 
         /* justify-content: space-between; */
+    }
+    .subtitle4{
+        color:rgb(255, 255, 255);
+    }
+    .subtitle4 span4{
+        color:#0ef;
     }
     .contact-text h2{
         font-size:90px;
@@ -828,6 +857,8 @@
     .contact-list li{
         margin-bottom:10px;
         display:block;
+        color:#0ef;
+        font-family:Arial, Helvetica, sans-serif;
     }
     .contact-list i{
         display:inline-block;

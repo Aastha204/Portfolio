@@ -933,6 +933,8 @@ section{
 .contact-list li{
     margin-bottom:10px;
     display:block;
+    color:black;
+    font-family:Arial, Helvetica, sans-serif;
 }
 .contact-list i{
     display:inline-block;
